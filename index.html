@@ -7,12 +7,28 @@
     <title>JavaScript</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">  <!--bootstrap for styling-->
 </head>
-<body>    
-    <div class="container"> <!-- content -->
-        <h1>A Playground for JavaScript</h1>
-        <p>Check the developer console!</p>
-    </div>
+<body class="container"> <!-- content -->
+    <header class="row">
+        <div class="col-xs-8">
+            <h1 id="title">A Playground for JavaScript</h1>
+            <p id="subtitle" class="lead">Check the JavaScript console!</p>
+        </div>
+        <img id="picture" class="col-xs-*" src="img/ischool-logo.png"/>
+    </header>
 
+    <div id="content">        
+        <p id="alert" class="lead alert-warning"></p>
+        <p id="text">Here's some text: lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quae sit autem minus. Eaque magni est, eligendi suscipit, maiores esse, distinctio debitis repudiandae rerum non ipsum, dolorem ducimus optio et.</p>
+        <ul id="list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+       </ul>        
+    </div>
+     
+    <!--jQuery-->
+    <script src="lib/jquery-2.2.3.js"></script>
+    <!--our script-->
     <script src="script.js"></script>
 </body>
 </html>

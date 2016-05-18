@@ -1,3 +1,5 @@
 'use strict'; //strict mode: catch silly errors
 
-//code goes here!
+var names = ['Alice', 'Bob', 'Charles', 'Debbie', 'Edward', 'Fred'];
+
+
